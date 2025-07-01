@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 33);
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 97px;
+    background-color: rgb(18,18,62);
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    justify-content: space-around;
+    margin: 0 20px;
+    font-size: 1.23rem;
+}
+.left{
+    font-size: 2rem;
+}
+.firsts{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 0;
+}
+.firsts > div{
+    width: 30%;
+}
+.rights img{
+     width: 100%;
+     margin: 50px 0;
+}
+.lefts{
+    font-size: 3rem;
+}
+.name{
+    color: rgb(126, 15, 229);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: rgb(172, 172, 244);
+}
+#element{
+    color: rgb(126, 15, 229);
+}
+.seconds{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.seconds h1{
+    font-size: 1.85rem;
+}
+main hr{
+    height: 1.2px;
+    margin: 40px 84px;
+    background:  rgb(193, 126, 255);
+    color: rgb(172, 172, 244);
+    background-color: rgb(172, 172, 244);
+}
+.gray{
+    color: grey;
+}
+.seconds .box{
+    background: white;
+    width: 80vw;
+    height: 1.9px;
+    margin: 116px 0;
+    display: flex;
+}
+.vertical-text{
+    display: flex;
+        position: relative;
+        left: -98px;
+        width: 25vw;
+        font-size: 1.2rem
+        ;
+}
+#iem{
+    position: relative;
+    left:-120px;
+}
+.seconds .vertical{
+    height:93px;
+    width:1px;
+    background-color: white;
+    margin: 0 210px;
+}
+.vertical-img{
+    position: relative;
+    top: -93px;
+    margin: -36px -84px;
+    width: 167px;
+}
+.vertical .gray{
+    position: relative;
+    left: -50px;
+    width: 200px;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Floating button */
+.chat-toggle {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background-color: #4CAF50;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 28px;
+  text-align: center;
+  line-height: 60px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+/* Chat Window */
+/* Floating button */
+.chat-toggle {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background-color: rgb(126, 15, 229); /* Purple */
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 28px;
+  text-align: center;
+  line-height: 60px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+}
+
+/* Chat Window */
+.chatbox {
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  bottom: 100px;
+  right: 24px;
+  width: 350px;
+  height: 500px;
+  background: rgb(0, 0, 33); /* Match site bg */
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  z-index: 999;
+  overflow: hidden;
+}
+
+.chat-header {
+  background: rgb(126, 15, 229); /* Accent purple */
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+.close-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.close-btn:hover{
+    color:#af0c0c;
+    transition: 0.7s;
+}
+
+.chat-messages {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  background: #0f0f2b;
+  color: white;
+  font-size: 14px;
+}
+
+#chat-form {
+  display: flex;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#user-input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background-color: #1a1a3c;
+  color: white;
+  font-size: 14px;
+}
+
+#chat-form button {
+  background: rgb(126, 15, 229);
+  border: none;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.chat-toggle:hover {
+  background-color: rgb(150, 50, 255);
+}
+
+#chat-form button:hover {
+  background-color: rgb(150, 50, 255);
+}
+.chat-bubble {
+  display: flex;
+  flex-direction: column;
+  max-width: 75%;
+  margin: 12px;
+}
+
+.chat-bubble.user {
+  align-self: flex-end;
+  text-align: right;
+}
+
+.chat-bubble.bot {
+  align-self: flex-start;
+  text-align: left;
+}
+
+.bubble-text {
+  display: inline-block;
+  padding: 10px 14px;
+  border-radius: 18px;
+  font-size: 14px;
+  line-height: 1.4;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.chat-bubble.user .bubble-text {
+  background-color: rgb(126, 15, 229);
+  color: white;
+  border-bottom-right-radius: 4px;
+}
+
+.chat-bubble.bot .bubble-text {
+  background-color: #1a1a3c;
+  color: white;
+  border-bottom-left-radius: 4px;
+}
+
+.sender-label {
+  margin-top: 4px;
+  font-size: 11px;
+  color: #aaa;
+}
+
+
+.About{
+    display: flex;
+    margin: 4px 0;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    size: 2rem;
+}
+
+.About-desc{
+   font-family: 'Poppins', sans-serif;
+   font-size: 1.2rem;
+} 
+    .contact-container {
+      position:relative;
+      left: 550px;
+      top: 20px;
+      background-color: #0f0f2b;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(126, 15, 229, 0.5);
+      padding: 40px;
+      width: 100%;
+      max-width: 500px;
+      text-align: center;
+    }
+
+    .contact-container h1 {
+      margin-bottom: 24px;
+      color: rgb(193, 126, 255);
+    }
+
+    .social-links {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .social-links a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      color: white;
+      background-color: rgb(126, 15, 229);
+      padding: 12px;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+      font-size: 16px;
+    }
+
+    .social-links a:hover {
+      background-color: rgb(150, 50, 255);
+    }
+
+    .social-links a i {
+      margin-right: 10px;
+      font-size: 18px;
+    }
+    .contact-container p{
+      font-family: 'Poppins', sans-serif ;
+      font-size: large;
+    }

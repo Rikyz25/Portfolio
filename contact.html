@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anik-Developer-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-MuUONyKHskPYtqMBlJHbhg+Z/PKTZS/1+FuvlCU3J9UHyKTfNs74pTh4qWhUrw+TkGvN7O1Q3PP3zK1UEq7S3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Anik's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+    <div class="contact-container">
+    <h1>Contact Me</h1>
+    <p>Feel free to reach out via any of the platforms below</p>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/anik-bandopadhyay-080347236" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
+      <a href="https://github.com/Rikyz25" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+      <a href="mailto:anikbandopadhyay@gmail.com"><i class="fas fa-envelope"></i>Email</a>
+      <a href="https://www.instagram.com/rikyz_not_found" target="_blank"><i class="fab fa-instagram"></i>Instagram</a>
+    </div>
+  </div>
+  </div>
+
+           <div class="chat-toggle" id="chat-toggle">
+                💬
+            </div>
+            <div class="chatbox" id="chatbox">
+            <div class="chat-header">
+            <span>Ask Me Anything</span>
+            <button class="close-btn" id="close-chat">×</button>
+            </div>
+            <div id="messages" class="chat-messages"></div>
+            <form id="chat-form">
+            <input type="text" id="user-input" placeholder="Type your question..." required />
+            <button type="submit">➤</button>
+            </form>
+        </div>
+        <script src="app.js"></script>
+
+    </main>
+
+</body>

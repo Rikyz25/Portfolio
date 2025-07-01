@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anik-Developer-Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Anik's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="seconds">
+        <h1 class="About">About Me</h1>
+        <hr />
+        <p class="About-desc">
+          I’m Anik Bandopadhyay, a third-year B.Tech student majoring in
+          Computer Science at the Institute of Engineering & Management (IEM),
+          Kolkata, with an average GPA of 8.3. I’m passionate about creating
+          scalable, user-centric digital experiences and have developed strong
+          technical expertise in web development using React.js and relational
+          database management with MySQL. I also hold a 5-star SQL certification
+          on HackerRank, which reflects my proficiency in writing optimized,
+          production-ready queries. I’m an outspoken, ambitious, and disciplined
+          individual who thrives in team-driven environments and enjoys taking
+          initiative. I’m currently seeking internships and part-time
+          opportunities to gain hands-on industry experience and kickstart my
+          career in the field of information technology. I’m eager to contribute
+          meaningfully, learn continuously, and grow into a dynamic tech
+          professional.
+        </p>
+      </section>
+
+      <div class="chat-toggle" id="chat-toggle">💬</div>
+      <div class="chatbox" id="chatbox">
+        <div class="chat-header">
+          <span>Ask Me Anything</span>
+          <button class="close-btn" id="close-chat">×</button>
+        </div>
+        <div id="messages" class="chat-messages"></div>
+        <form id="chat-form">
+          <input
+            type="text"
+            id="user-input"
+            placeholder="Type your question..."
+            required
+          />
+          <button type="submit">➤</button>
+        </form>
+      </div>
+
+      <script src="app.js"></script>
+    </main>
+  </body>
+</html>
